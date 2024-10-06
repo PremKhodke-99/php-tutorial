@@ -10,4 +10,21 @@ if($age < 18){
     echo "Display adult content";
 }
 
+echo "<br /><br />";
+#Switch statement
+$color = "green";
+
+switch($color){
+    case "red":
+        echo "red is fav color";
+        break;
+    case "green":
+        echo "green is fav color";
+        break;
+    case "blue":
+        echo "blue is fav color";
+        break;
+    default: "yellow is fav color";
+}
+
 ?>
